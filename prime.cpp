@@ -23,14 +23,14 @@ void prime_List(int a)
 int main()
 {
 	int a = 2;//First number to test.
-	int x = 1000;//Till what number to test.
+	int x = 100000;//Till what number to test.
 	while(a <= x)
 	{//here we start the whole testing process.
 		prime_List(a);
 		a++;
 	}
 	
-	std::cout << " you have found " << prime_number.size() << " prime numbers." << std::endl;
+	std::cout << "You have found " << prime_number.size() << " prime numbers." << std::endl;
 
 return 0;
 }
