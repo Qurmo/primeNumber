@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> prime_number;
+std::vector<int> prime_numbers;//Vector containing all found prime numbers.
 
 void prime_List(int a)
 {//Here we test to see if the number is prime.
@@ -15,7 +15,7 @@ void prime_List(int a)
 
 		if(b == a)
 		{//Number is prime and can be added to vector.
-			prime_number.push_back(a);
+			prime_numbers.push_back(a);
 		}
 	}
 }
@@ -30,7 +30,7 @@ int main()
 		a++;
 	}
 	
-	std::cout << "You have found " << prime_number.size() << " prime numbers." << std::endl;
+	std::cout << "You have found " << prime_numbers.size() << " prime numbers." << std::endl;
 
 return 0;
 }
